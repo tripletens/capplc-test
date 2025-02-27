@@ -9,7 +9,6 @@ use App\Services\UserService;
 class DashboardController extends Controller
 {
     //
-
     protected $userService, $taskService;
 
     public function __construct(TaskService $taskService, UserService $userService)
